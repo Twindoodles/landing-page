@@ -138,6 +138,7 @@ button {
     flex-direction:column;
 }
 
+/* regular profiles are smaller */
 .profile {
     width:200px;
 }
@@ -146,6 +147,7 @@ button {
     width:200px;
     height:200px;
 }
+
 .profile .img-container img,
 .profile-lg .img-container img {
     width:100%;
@@ -160,6 +162,7 @@ button {
     margin-top:0;
 }
 
+/* larger profiles are...larger */
 .profile-lg {
     width:300px;
 }
@@ -185,11 +188,9 @@ button {
     margin-top:0px;
     color:#A9B4B6;
 }
-.quote-section .author {
-    text-align: right;
-}
 
 .quote-section .author p {
+    text-align: right;
     color:#858585;
 }
 
@@ -208,6 +209,7 @@ button {
     border-radius:6px;
 }
 
+/* all text is white in the cta banner */
 .cta-section .cta-banner p,
 .cta-section .cta-banner h1,
 .cta-section .cta-banner h2,
@@ -218,6 +220,7 @@ button {
     color:white;
 }
 
+/* proper distance between header and description */ 
 .cta-section .cta-banner h1,
 .cta-section .cta-banner h2,
 .cta-section .cta-banner h3,
