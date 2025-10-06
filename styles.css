@@ -1,0 +1,64 @@
+.site-margins {
+    display:flex;
+    flex-direction:column;
+    padding-left:200px;
+    padding-right:200px;
+}
+
+.nav {
+    display:flex;
+    flex-direction:row;
+    flex:auto;
+}
+
+.nav .logo img {
+    height:48px;
+    width:auto;
+}
+
+.nav .elements {
+    display:flex;
+    flex-direction:row;
+}
+
+.hero-section {
+    display:flex;
+    flex-direction:row;
+}
+
+.hero-section img {
+    width:300px;
+}
+
+.about-section {
+    display:flex;
+    flex-direction:column;
+}
+
+.about-section .top {
+    text-align: center;
+}
+
+.about-section .bottom {
+    display:flex;
+    flex-direction:row;
+}
+
+.profile {
+    display:flex;
+    flex-direction:column;
+}
+
+.profile img {
+    width:100px;
+    height:auto;
+}
+
+.quote-section .bottom {
+    text-align: right;
+}
+
+.cta-section .cta-banner {
+    display:flex;
+    flex-direction:row;
+}
