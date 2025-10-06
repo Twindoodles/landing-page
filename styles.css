@@ -1,14 +1,10 @@
-.site-margins {
-    display:flex;
-    flex-direction:column;
-    padding-left:200px;
-    padding-right:200px;
-}
-
+/* top nav */
 .nav {
     display:flex;
     flex-direction:row;
     flex:auto;
+    justify-content:space-between;
+    padding: 12px 200px 12px 200px;
 }
 
 .nav .logo img {
@@ -19,20 +15,45 @@
 .nav .elements {
     display:flex;
     flex-direction:row;
+    width:200px;
+    justify-content:space-between;
 }
 
+.nav .elements .element {
+    width:60px;
+    text-align: center;
+    box-sizing:border-box;
+}
+
+/* hero section */
 .hero-section {
     display:flex;
     flex-direction:row;
+    justify-content:space-between;
+    padding: 80px 200px 80px 200px;
+}
+
+.hero-section .left {
+    width:400px;
 }
 
 .hero-section img {
-    width:300px;
+    width:500px;
+    height:auto;
 }
 
+/* about section */ 
 .about-section {
     display:flex;
     flex-direction:column;
+    padding: 80px 200px 80px 200px;
+    background:#00BCF0;
+}
+
+.about-section p,
+.about-section h1,
+.about-section h6 {
+    color:white; 
 }
 
 .about-section .top {
@@ -42,23 +63,44 @@
 .about-section .bottom {
     display:flex;
     flex-direction:row;
+    justify-content: space-evenly;
+    margin-top:48px;
 }
 
 .profile {
     display:flex;
     flex-direction:column;
+    width:200px;
 }
 
 .profile img {
-    width:100px;
+    width:200px;
     height:auto;
 }
 
-.quote-section .bottom {
+/* quote section */
+.quote-section {
+    padding: 80px 300px 80px 300px;
+}
+.quote-section .author {
     text-align: right;
 }
 
+/* cta section */
+.cta-section {
+    justify-content: center;
+    padding: 12px 200px 12px 200px;
+}
 .cta-section .cta-banner {
     display:flex;
     flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    padding: 24px 24px 24px 24px;
+    background:#00BCF0;
+}
+
+.cta-section .cta-banner p,
+.cta-section .cta-banner h3 {
+    color:white;
 }
